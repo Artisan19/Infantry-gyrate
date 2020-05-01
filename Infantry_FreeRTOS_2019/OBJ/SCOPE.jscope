@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="-1" JTAG_DRPre="-1" IP="localhost" TargetDevice="Cortex-M4" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ScriptFile Name="unspecified" />
+            <ElfFile Name="C:\Users\DELL\Desktop\Hero_2019 - ¸±±¾\Hero_FreeRTOS_2019\OBJ\CAN.axf" />
+            <DataFile Name="" />
+            <RawFile Name="" />
+            <Scope>
+                <Options TimeResolutionUs="500000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="pitch_relative_angle_1000" Address="0x20000160" Type="int" TypeID="12" Size="4" GraphColorRed="255" GraphColorGreen="215" GraphColorBlue="0" YMinSampled="-1112" YMaxSampled="724" YAvgSampled="-228" Offset="4" ShowInGraph="1" ACCoupling="0" YOffset="770" IsAutoConfig="1" YResolution="200" MaxValue="1540" File="..\App\gimbal_task.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="pitch_relative_set_1000" Address="0x2000015C" Type="int" TypeID="12" Size="4" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="-1770" YMaxSampled="478" YAvgSampled="-293" Offset="8" ShowInGraph="1" ACCoupling="0" YOffset="730" IsAutoConfig="1" YResolution="500" MaxValue="3650" File="..\App\gimbal_task.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="pitch_speed_int_1000" Address="0x20000168" Type="int" TypeID="12" Size="4" GraphColorRed="102" GraphColorGreen="102" GraphColorBlue="178" YMinSampled="-6519" YMaxSampled="7411" YAvgSampled="0" Offset="12" ShowInGraph="1" ACCoupling="0" YOffset="1090" IsAutoConfig="1" YResolution="2000" MaxValue="13520" File="..\App\gimbal_task.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="pitch_speed_set_int_1000" Address="0x20000170" Type="int" TypeID="12" Size="4" GraphColorRed="160" GraphColorGreen="32" GraphColorBlue="240" YMinSampled="-10000" YMaxSampled="6454" YAvgSampled="-1605" Offset="16" ShowInGraph="1" ACCoupling="0" YOffset="1240" IsAutoConfig="1" YResolution="2000" MaxValue="10520" File="..\App\gimbal_task.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>
